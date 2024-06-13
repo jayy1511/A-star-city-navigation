@@ -6,8 +6,6 @@ This project implements the A* algorithm to compute the shortest path between tw
 - [Overview](#overview)
 - [Files](#files)
 - [Usage](#usage)
-- [Error Handling](#error-handling)
-- [Complexity](#complexity)
 
 ## Overview
 The A* algorithm is a popular pathfinding and graph traversal algorithm used to find the shortest path between nodes. This implementation reads map data from a file and calculates the shortest path between two specified cities.
@@ -19,9 +17,10 @@ The A* algorithm is a popular pathfinding and graph traversal algorithm used to 
 - `main.py`: The main entry point of the program.
 - `FRANCE.MAP`: The map data file.
 - `Complexity_Evaluation.txt`: Evaluation of the algorithm's complexity.
-- `README.md`: This file.
 
 ## Usage
 Run the program from the command line:
 ```sh
 python main.py <start_city> <goal_city>
+
+
