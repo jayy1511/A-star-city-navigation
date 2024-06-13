@@ -8,11 +8,6 @@ This project implements the A* algorithm to compute the shortest path between tw
 - [Usage](#usage)
 - [Error Handling](#error-handling)
 - [Complexity](#complexity)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Running the Project](#running-the-project)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 The A* algorithm is a popular pathfinding and graph traversal algorithm used to find the shortest path between nodes. This implementation reads map data from a file and calculates the shortest path between two specified cities.
