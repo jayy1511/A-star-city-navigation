@@ -1,0 +1,22 @@
+# Complexity Evaluation of A* Algorithm
+
+The A* algorithm's complexity is evaluated in terms of E (number of edges) and V (number of vertices) as follows:
+
+1. Heuristic Calculation:
+   - Each heuristic calculation (e.g., Euclidean distance) is O(1).
+
+2. Priority Queue Operations:
+   - Each insertion or deletion operation in the priority queue is O(log V).
+
+3. Main Loop:
+   - The main loop processes each node once and each edge once.
+   - The operations inside the main loop are dominated by the priority queue operations.
+
+4. Path Reconstruction:
+   - Path reconstruction involves tracing back through the came_from map, which is O(V) in the worst case.
+
+Overall Time Complexity:
+   - O(E + V log V)
+
+- E: Number of edges.
+- V: Number of vertices.
